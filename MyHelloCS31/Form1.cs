@@ -21,5 +21,10 @@ namespace MyHelloCS31
         {
 
         }
+
+        private void btnGreeting_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("안녕하세요 :) 심이진입니다!", "환영 메시지", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
